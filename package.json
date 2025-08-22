@@ -1,7 +1,7 @@
 {
   "name": "todo-list-api",
   "version": "1.0.0",
-  "description": "Uma API simples para gerenciar lista de tarefas",
+  "description": "Uma API de lista de tarefas",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -17,10 +17,11 @@
   "author": "Nykolas",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "sqlite3": "^5.1.6"
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "firebase": "^12.1.0",
+    "firebase-admin": "^13.4.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
